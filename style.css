@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.204);
+}
+
+
+.navwrapper{
+    background-color: rgba(0, 0, 0, 0.412);
+   
+}
+
+.container{
+
+    height: 80px;
+}
+
+.navbar{
+    height: 81px;
+    background-color:greenyellow transparent;
+    color: white;
+}
+
+@media (min-width:1200px) {
+    .container {
+        border-bottom: 5px solid yellow;
+    }
+        
+}
+
+@media (max-width:1200px) {
+    #navbarNavAltMarkup{
+        background-color: orange;
+    }
+    
+}
+
