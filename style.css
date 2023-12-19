@@ -221,6 +221,8 @@
 }
 
 
+/* form  */
+
 .form-div {
     margin-top: 90px;
     background-color: white;
@@ -229,22 +231,22 @@
     margin-left: 95px;
     border-radius: 5px;
     padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.row {
-    margin-top: 80pxpx;
-}
 
 .form-btn {
     padding: 20px 60px;
     border-radius: 30px;
     border: none;
-    transform: translate(80%, 20%);
     font-weight: 800;
     font-size: 15px;
     color: black;
     background-color: #ffc61a;
     transition: all ease 0.5s;
+    margin: auto;
 }
 
 .form-btn:hover{
@@ -255,6 +257,7 @@
 .car-menu{
     width: 105%;
     height: 20%;
+    flex-wrap: wrap ;
 
 }
 
@@ -280,4 +283,57 @@
     font-weight: 700;
     text-align: center;
     
+}
+
+/* form media quries */
+
+/* small device 576px */
+
+@media (max-width:576px) {
+
+    .form-div {
+        width: 80vw;
+        height: 70vh;
+        margin-left: 35px;
+        padding: 20px;
+    }
+    
+    .form-btn {
+        padding: 5px 20px;
+        border-radius: 20px;
+        font-weight: 700;
+    }
+
+    .car-menu{
+        width: 105%;
+        height: 20%;
+    }
+    
+    .car{
+        width: 10%;
+        height: 50%;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        border-radius: 5px;
+        gap: 4px;
+        flex-wrap: wrap;
+    }
+    
+    .car:hover{
+        background-color: #ffc61a;
+        transition: all ease 1s;
+    }
+    .car a{
+        font-size: 9px;
+        font-weight: 800;
+        
+    }
+
+    .car img{
+            width: 15vw;
+            height: 5vh;
+    }
+    
+
 }
