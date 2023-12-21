@@ -338,8 +338,40 @@
     background-color: black;
 }
 
+/* our services */
 
+.our-service{
+    text-align: center;
+    margin-top: 50px;
+}
 
+.our-service h4{
+    font-size: 30px;
+    font-weight: 700;
+    
+}
+
+.our-service h2{
+    font-size: 40px;
+    font-weight: 700;
+    
+}
+
+.card-container{
+    padding:50px 117px ;
+}
+
+.card-img-top{
+    width: 46%;
+    height: 30%;
+    align-self: center;
+    padding: 20px;
+}
+
+.card{
+    border: none;
+    margin:10px 10px;
+}
 
 
 
