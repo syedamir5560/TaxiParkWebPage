@@ -4,6 +4,23 @@
     box-sizing: border-box;
 }
 
+body::-webkit-scrollbar {
+    width: 1em;
+    background-color: #ffc61a;
+  }
+
+  body::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background-color:black
+  }
+
+  body::-webkit-scrollbar-thumb {
+    background-color:#ffc61a;
+    outline: 2px solid black;
+    border-radius: 5px;
+
+  }
+
 .container {
     border-bottom: 5px solid orange;
 }
