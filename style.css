@@ -681,8 +681,8 @@
     }
 
     .our-service h2 {
-        font-size: 30px;
-        font-weight: 700;
+        font-size: 20px;
+        font-weight: 800;
 
     }
 
@@ -711,12 +711,13 @@
     .card-container2 {
         padding: 20px 30px;
         flex-direction: column;
+        gap:5px;
     }
   
     .our-teriff {
         text-align: center;
         margin-top: 50px;
-        height: 270vh;
+        height: 280vh;
     }
 
     .our-teriff h4 {
@@ -738,13 +739,20 @@
 
     .terrifs-img {
         width: 80%;
-        height:30%;
+        height:40%;
 
     }
 
     .terrifs-card {
-        height: 60vh;
+        height: 65vh;
     }
 
+    .card-container2 .terrifs-card .card-body p{
+        font-size: 20px;
+    }
 
+    .card-container2 .terrifs-card .card-body h5{
+        font-size: 20px;
+        font-weight: 900;
+    }
 }
