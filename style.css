@@ -370,15 +370,20 @@
 
 @media (max-width:992px) {
     .car-menu {
-        width: 45vw;
-        height: 20vh;
+        width: 50vw;
+        height: 25vh;
         flex-wrap: wrap;
-        /* background-color: blue; */
 
+    }
+    .car {
+        width: 15vw;
+        height: 10vh;
+        gap: 5px;
+        flex-wrap: wrap;
     }
 
     .form-div {
-        height: 80vh;
+        height: 60vh;
     }
 
     .form-div {
@@ -392,12 +397,6 @@
     }
 
 
-    .car {
-        width: 23%;
-        height: 80%;
-
-        /* background-color: #ffc61a; */
-    }
 
 
     .car img {
@@ -405,14 +404,33 @@
         height: 5vh;
     }
 
-    .contact-info {
-        flex-direction: column;
-        text-align: center;
+    .contact-info{
+        height: 10vh;
     }
+    
+    .contact-details {
+        flex-grow: 1;
   
-    .contact-info i {
-        margin: 0 0 10px;
     }
+    
+    .contact-details .cf1 {
+        font-weight: 800;
+        font-size: 15px;
+    }
+    
+    .contact-details .cf2 {
+        font-weight: 700;
+        font-size: 10px;
+    }
+
+    .contact-btn{
+        padding: 10px 10px;
+        font-weight: 800;
+        font-size: 15px;
+    }
+
+  
+
 
     
   }
@@ -468,7 +486,7 @@
 
 
     .contact-info{
-        height: 40vh;
+        height:30vh;
     }
     
     .contact-details {
