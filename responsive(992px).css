@@ -1,0 +1,145 @@
+/* form media quries */
+
+/* larg device */
+/* 992px */
+
+@media (max-width:992px) {
+    .car-menu {
+        width: 50vw;
+        height: 25vh;
+        flex-wrap: wrap;
+    }
+
+    .car {
+        width: 15vw;
+        height: 10vh;
+        gap: 5px;
+        flex-wrap: wrap;
+    }
+
+    .form-div {
+        height: 60vh;
+    }
+
+    .form-div {
+        width: 60vw;
+    }
+
+    .form-btn {
+        padding: 10px 30px;
+        border-radius: 20px;
+    }
+    .car img {
+        width: 8vw;
+        height: 5vh;
+    }
+
+    .contact-info {
+        height: 10vh;
+    }
+
+    .contact-details {
+        flex-grow: 1;
+
+    }
+
+    .contact-details .cf1 {
+        font-weight: 800;
+        font-size: 15px;
+    }
+
+    .contact-details .cf2 {
+        font-weight: 700;
+        font-size: 10px;
+    }
+
+    .contact-btn {
+        padding: 10px 10px;
+        font-weight: 800;
+        font-size: 15px;
+    }
+
+
+    /* our service */
+    .our-service {
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    .our-service h4 {
+        font-size: 20px;
+        font-weight: 700;
+
+    }
+
+    .our-service h2 {
+        font-size: 30px;
+        font-weight: 700;
+
+    }
+
+    .card-container {
+        padding: 20px 30px;
+    }
+
+    .card-img-top {
+        width: 46%;
+        height: 30%;
+        align-self: center;
+        padding: 20px;
+    }
+
+    .card {
+        border: none;
+        margin: 5px 5px;
+        border-right: 1px dotted black;
+    }
+
+    .card h5 {
+        font-size: 15px;
+    }
+
+    /* our terrifs */
+
+    .card-container2 {
+        padding: 20px 30px;
+    }
+    .our-teriff {
+        text-align: center;
+        margin-top: 50px;
+        height: 85vh;
+    }
+
+    .our-teriff h4 {
+        font-size: 30px;
+        font-weight: 700;
+        padding-top: 40px;
+
+    }
+
+    .our-teriff h2 {
+        font-size: 45px;
+        font-weight: 800;
+
+    }
+
+    .our-teriff p {
+        font-size: 17px;
+    }
+
+    .terrifs-img {
+        width: 100%;
+        height: 100%;
+
+    }
+
+    .terrifs-card {
+        height: 30vh;
+
+    }
+
+
+
+}
+
+

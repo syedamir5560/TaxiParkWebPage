@@ -1,0 +1,163 @@
+/* small device 576px */
+
+@media only screen and (max-width:575px) {
+    .form-div {
+        width: 90vw;
+        height: 70vh;
+        margin-left: 10px;
+        padding: 20px;
+    }
+
+    .form-div h2 {
+        margin-bottom: 20px;
+    }
+
+
+    .car-menu {
+        width: 80vw;
+        height: 12vh;
+        flex-wrap: wrap;
+        /* background-color: blue; */
+        gap: 5px;
+
+    }
+
+    .car {
+        width: 20vw;
+        height: 8vh;
+        flex-wrap: wrap;
+        /* background-color: #ffc61a; */
+    }
+
+    .car a {
+        font-size: 8px;
+        font-weight: 800;
+    }
+
+    .car img {
+        width: 12vw;
+        height: 4vh;
+    }
+
+    .form-btn {
+        padding: 5px 20px;
+        border-radius: 20px;
+        font-weight: 700;
+    }
+
+
+    .contact-info {
+        height: 30vh;
+    }
+
+    .contact-details {
+        flex-grow: 1;
+        flex-direction: column;
+
+    }
+
+    .contact-details .cf1 {
+        font-weight: 800;
+        font-size: 15px;
+    }
+
+    .contact-details .cf2 {
+        font-weight: 700;
+        font-size: 10px;
+    }
+
+    .contact-btn {
+        padding: 10px 10px;
+        font-weight: 800;
+        font-size: 15px;
+    }
+
+    /* servoces */
+
+    .our-service {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .our-service h4 {
+        font-size: 15px;
+        font-weight: 700;
+
+    }
+
+    .our-service h2 {
+        font-size: 20px;
+        font-weight: 800;
+
+    }
+
+    .card-container {
+        padding: 20px 30px;
+        flex-direction: column;
+    }
+
+    .card-img-top {
+        width: 40%;
+        height: 30%;
+        align-self: center;
+        padding: 20px;
+    }
+
+    .card {
+        margin: 5px 5px;
+    }
+
+
+    .card h5 {
+        font-size: 15px;
+    }
+    /* card teriss */
+
+    .card-container2 {
+        padding: 20px 30px;
+        flex-direction: column;
+        gap:5px;
+    }
+  
+    .our-teriff {
+        text-align: center;
+        margin-top: 50px;
+        height: 280vh;
+    }
+
+    .our-teriff h4 {
+        font-size: 15px;
+        font-weight: 600;
+        padding-top: 40px;
+
+    }
+
+    .our-teriff h2 {
+        font-size: 30px;
+        font-weight: 700;
+
+    }
+
+    .our-teriff p {
+        font-size: 17px;
+    }
+
+    .terrifs-img {
+        width: 80%;
+        height:40%;
+
+    }
+
+    .terrifs-card {
+        height: 65vh;
+    }
+
+    .card-container2 .terrifs-card .card-body p{
+        font-size: 20px;
+    }
+
+    .card-container2 .terrifs-card .card-body h5{
+        font-size: 20px;
+        font-weight: 900;
+    }
+}
