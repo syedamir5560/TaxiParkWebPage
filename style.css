@@ -340,77 +340,83 @@
 
 /* our services */
 
-.our-service{
+.our-service {
     text-align: center;
     margin-top: 50px;
 }
 
-.our-service h4{
+.our-service h4 {
     font-size: 30px;
     font-weight: 700;
-    
+
 }
 
-.our-service h2{
+.our-service h2 {
     font-size: 40px;
     font-weight: 700;
-    
+
 }
 
-.card-container{
-    padding:50px 117px ;
+.card-container {
+    padding: 50px 117px;
 }
 
-.card-img-top{
+.card-img-top {
     width: 46%;
     height: 30%;
     align-self: center;
     padding: 20px;
 }
 
-.card{
+.card {
     border: none;
-    margin:10px 10px;
+    margin: 10px 10px;
 }
 
 /* our terrifs */
 
-.our-teriff{
+.our-teriff {
     text-align: center;
     margin-top: 50px;
     height: 100vh;
 }
 
-.our-teriff h4{
+.our-teriff h4 {
     font-size: 30px;
     font-weight: 700;
     padding-top: 40px;
-    
+
 }
 
-.our-teriff h2{
+.our-teriff h2 {
     font-size: 50px;
     font-weight: 800;
-    
+
 }
 
-.our-teriff p{
+
+
+
+/* .our-teriff p {
     font-size: 17px;
+} */
+
+.card-container2 {
+    padding: 50px 117px;
 }
 
-
-.terrifs-img{
+.terrifs-img {
     width: 60%;
     height: 40%;
 
 }
 
-.terrifs-card{
+.terrifs-card {
     height: 60vh;
-    
+
 }
 
-.terrifs-card:hover{
+.terrifs-card:hover {
     box-shadow: 2px 2px 10px black;
     transition: all ease 0.3s;
 }
@@ -446,6 +452,7 @@
         flex-wrap: wrap;
 
     }
+
     .car {
         width: 15vw;
         height: 10vh;
@@ -476,74 +483,113 @@
         height: 5vh;
     }
 
-    .contact-info{
+    .contact-info {
         height: 10vh;
     }
-    
+
     .contact-details {
         flex-grow: 1;
-  
+
     }
-    
+
     .contact-details .cf1 {
         font-weight: 800;
         font-size: 15px;
     }
-    
+
     .contact-details .cf2 {
         font-weight: 700;
         font-size: 10px;
     }
 
-    .contact-btn{
+    .contact-btn {
         padding: 10px 10px;
         font-weight: 800;
         font-size: 15px;
     }
 
-  
+
     /* our service */
-    .our-service{
+    .our-service {
         text-align: center;
         margin-top: 40px;
     }
-    
-    .our-service h4{
+
+    .our-service h4 {
         font-size: 20px;
         font-weight: 700;
-        
+
     }
-        
-    .our-service h2{
+
+    .our-service h2 {
         font-size: 30px;
         font-weight: 700;
-        
+
     }
-    
-    .card-container{
-        padding:20px 30px ;
+
+    .card-container {
+        padding: 20px 30px;
     }
-    
-    .card-img-top{
+
+    .card-img-top {
         width: 46%;
         height: 30%;
         align-self: center;
         padding: 20px;
     }
-    
-    .card{
+
+    .card {
         border: none;
-        margin:5px 5px;
-        border-right:1px dotted black;
+        margin: 5px 5px;
+        border-right: 1px dotted black;
     }
 
-    .card h5{
+    .card h5 {
         font-size: 15px;
     }
 
+    /* our terrifs */
 
-    
-  }
+    .card-container2 {
+        padding: 20px 30px;
+    }
+    .our-teriff {
+        text-align: center;
+        margin-top: 50px;
+        height: 85vh;
+    }
+
+    .our-teriff h4 {
+        font-size: 30px;
+        font-weight: 700;
+        padding-top: 40px;
+
+    }
+
+    .our-teriff h2 {
+        font-size: 45px;
+        font-weight: 800;
+
+    }
+
+    .our-teriff p {
+        font-size: 17px;
+    }
+
+    .terrifs-img {
+        width: 100%;
+        height: 100%;
+
+    }
+
+    .terrifs-card {
+        height: 30vh;
+
+    }
+
+
+
+}
 
 
 
@@ -595,75 +641,110 @@
     }
 
 
-    .contact-info{
-        height:30vh;
+    .contact-info {
+        height: 30vh;
     }
-    
+
     .contact-details {
         flex-grow: 1;
         flex-direction: column;
-    
+
     }
-    
+
     .contact-details .cf1 {
         font-weight: 800;
         font-size: 15px;
     }
-    
+
     .contact-details .cf2 {
         font-weight: 700;
         font-size: 10px;
     }
 
-    .contact-btn{
+    .contact-btn {
         padding: 10px 10px;
         font-weight: 800;
         font-size: 15px;
     }
 
-/* servoces */
+    /* servoces */
 
-    .our-service{
+    .our-service {
         text-align: center;
         margin-top: 20px;
     }
-    
-    .our-service h4{
+
+    .our-service h4 {
         font-size: 15px;
         font-weight: 700;
-        
+
     }
-        
-    .our-service h2{
+
+    .our-service h2 {
         font-size: 30px;
         font-weight: 700;
-        
+
     }
-    
-    .card-container{
-        padding:20px 30px ;
+
+    .card-container {
+        padding: 20px 30px;
         flex-direction: column;
     }
-    
-    .card-img-top{
+
+    .card-img-top {
         width: 40%;
         height: 30%;
         align-self: center;
         padding: 20px;
     }
-    
-    .card{
- 
-        margin:5px 5px;
-        
 
+    .card {
+        margin: 5px 5px;
     }
 
 
-    .card h5{
+    .card h5 {
         font-size: 15px;
     }
+    /* card teriss */
 
+    .card-container2 {
+        padding: 20px 30px;
+        flex-direction: column;
+    }
+  
+    .our-teriff {
+        text-align: center;
+        margin-top: 50px;
+        height: 270vh;
+    }
+
+    .our-teriff h4 {
+        font-size: 15px;
+        font-weight: 600;
+        padding-top: 40px;
+
+    }
+
+    .our-teriff h2 {
+        font-size: 30px;
+        font-weight: 700;
+
+    }
+
+    .our-teriff p {
+        font-size: 17px;
+    }
+
+    .terrifs-img {
+        width: 80%;
+        height:30%;
+
+    }
+
+    .terrifs-card {
+        height: 60vh;
+    }
 
 
 }
