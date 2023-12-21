@@ -107,12 +107,14 @@
     color: white;
 }
 
-.fa-chevron-right, .fa-chevron-down{
+.fa-chevron-right,
+.fa-chevron-down {
     font-size: 10px;
     color: white;
 }
 
-.nav-link:hover .fa-chevron-right,  .fa-chevron-down{
+.nav-link:hover .fa-chevron-right,
+.fa-chevron-down {
     color: #ffc61a;
 }
 
@@ -291,49 +293,52 @@
 /* Addresss & phone no */
 
 .contact-info {
-    padding-top:33px;
+    padding-top: 33px;
     background-color: #ffc61a;
     height: 15vh;
-  }
-  
-  .contact-info i {
+}
+
+.contact-info i {
     font-size: 24px;
     margin-right: 10px;
     color: black;
-  }
-  
-  .contact-details {
+}
+
+.contact-details {
     flex-grow: 1;
-  
-  }
-  
-  .contact-details .cf1{
+
+}
+
+.contact-details .cf1 {
     font-weight: 800;
     font-size: 20px;
-  }
-  .contact-details .cf2{
+}
+
+.contact-details .cf2 {
     font-weight: 700;
     font-size: 15px;
-  }
-  
-  .contact-btn{
-    
-      padding: 15px 70px;
-      border-radius: 30px;
-      border:2px solid black;
-      font-weight: 800;
-      font-size: 15px;
-      color: black;
-      background-color: #ffc61a;
-      transition: all ease 0.5s;
-      
-  
-  }
-  .contact-btn:hover {
-      color: #ffc61a;
-      background-color: black;
-  }
-  
+}
+
+.contact-btn {
+
+    padding: 15px 70px;
+    border-radius: 30px;
+    border: 2px solid black;
+    font-weight: 800;
+    font-size: 15px;
+    color: black;
+    background-color: #ffc61a;
+    transition: all ease 0.5s;
+
+
+}
+
+.contact-btn:hover {
+    color: #ffc61a;
+    background-color: black;
+}
+
+
 
 
 
@@ -363,19 +368,7 @@
 /* larg device */
 /* 992px */
 
-
-/* @media (max-width: 600px) {
-    .contact-info {
-        flex-direction: column;
-        text-align: center;
-    }
-  
-    .contact-info i {
-        margin: 0 0 10px;
-    }
-  } */
-
-@media (max-width:992p) {
+@media (max-width:992px) {
     .car-menu {
         width: 45vw;
         height: 20vh;
@@ -412,7 +405,19 @@
         height: 5vh;
     }
 
-}
+    .contact-info {
+        flex-direction: column;
+        text-align: center;
+    }
+  
+    .contact-info i {
+        margin: 0 0 10px;
+    }
+
+    
+  }
+
+
 
 /* small device 576px */
 
@@ -424,20 +429,20 @@
         padding: 20px;
     }
 
-    .form-div h2{
+    .form-div h2 {
         margin-bottom: 20px;
     }
-    
-    
+
+
     .car-menu {
         width: 80vw;
-        height:12vh;
+        height: 12vh;
         flex-wrap: wrap;
         /* background-color: blue; */
-        gap:5px;
-    
+        gap: 5px;
+
     }
-    
+
     .car {
         width: 20vw;
         height: 8vh;
@@ -445,11 +450,11 @@
         /* background-color: #ffc61a; */
     }
 
-    .car a{
+    .car a {
         font-size: 8px;
         font-weight: 800;
     }
-    
+
     .car img {
         width: 12vw;
         height: 4vh;
@@ -461,5 +466,35 @@
         font-weight: 700;
     }
 
-        
+
+    .contact-info{
+        height: 40vh;
+    }
+    
+    .contact-details {
+        flex-grow: 1;
+        flex-direction: column;
+    
+    }
+    
+    .contact-details .cf1 {
+        font-weight: 800;
+        font-size: 15px;
+    }
+    
+    .contact-details .cf2 {
+        font-weight: 700;
+        font-size: 10px;
+    }
+
+    .contact-btn{
+        padding: 10px 10px;
+        font-weight: 800;
+        font-size: 15px;
+    }
+
+
+
+
+
 }
