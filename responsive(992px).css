@@ -130,12 +130,16 @@
     .terrifs-img {
         width: 100%;
         height: 100%;
-
     }
 
     .terrifs-card {
         height: 30vh;
 
+    }
+    /* driver section */
+
+    #driver{
+        padding-left: 8%;
     }
 
 

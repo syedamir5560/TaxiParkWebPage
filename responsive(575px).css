@@ -111,14 +111,15 @@
     .card h5 {
         font-size: 15px;
     }
+
     /* card teriss */
 
     .card-container2 {
         padding: 20px 30px;
         flex-direction: column;
-        gap:5px;
+        gap: 5px;
     }
-  
+
     .our-teriff {
         text-align: center;
         margin-top: 50px;
@@ -144,25 +145,33 @@
 
     .terrifs-img {
         width: 80%;
-        height:40%;
-
+        height: 40%;
     }
 
     .terrifs-card {
         height: 65vh;
     }
 
-    .card-container2 .terrifs-card .card-body p{
+    .card-container2 .terrifs-card .card-body p {
         font-size: 20px;
     }
 
-    .card-container2 .terrifs-card .card-body h5{
+    .card-container2 .terrifs-card .card-body h5 {
         font-size: 20px;
         font-weight: 900;
     }
 
     /* download section */
-        .download-right-side>div{
+    @media screen and (max-width:550px) {
+        .download-right-side>div {
             flex-direction: row;
         }
+    }
+
+
+/* driver section */
+
+#driver{
+    padding-left: 5%;
+}
 }
