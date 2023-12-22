@@ -667,8 +667,7 @@ main#carousel {
     width: 30px;
     height: 30px;
     margin-right: 10px;
-    transform: scale(1);
-    margin-bottom: 15px;   /* Apply some bottom margin */
+    transform: scale(1);  
     margin-top: 10px;
     cursor: pointer;
    

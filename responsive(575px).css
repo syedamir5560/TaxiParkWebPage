@@ -175,3 +175,56 @@
     padding-left: 5%;
 }
 }
+
+/* testimonial */
+
+.testimonials h4 {
+    font-size: 20px;
+    font-weight: 700;
+    padding-top: 40px;
+
+}
+
+.testimonials h2 {
+    font-size: 25px;
+    font-weight: 800;
+}
+
+
+div.item{
+    width: 300px;
+    height: 350px;
+}
+
+#carousel .item p{
+    font-size: 15px;
+    padding: 25px;
+    line-height: 20px;
+    font-style: italic;
+}
+
+.fa-quote-left{
+color: rgba(128, 128, 128, 0.427);
+font-size: 30px;
+}
+
+#carousel .item h4{
+font-size: 12px;
+color: black;
+}
+
+#carousel .item img{
+width: 20%;
+height: 15%;
+border-radius: 50%;
+}
+
+input[type='radio']{
+width: 22px;
+height: 22px;
+margin-right: 10px;
+transform: scale(1);
+margin-top: 10px;
+cursor: pointer;
+
+}
