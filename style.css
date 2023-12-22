@@ -542,6 +542,134 @@ body::-webkit-scrollbar-thumb {
     }
 }
 
-    
+/* testimonials */
 
+.testimonials {
+    text-align: center;
+    margin-top: 50px;
+    height: 100vh;
+    background-color: rgba(128, 128, 128, 0.13);
+}
 
+.testimonials h4 {
+    font-size: 25px;
+    font-weight: 700;
+    padding-top: 40px;
+
+}
+
+.testimonials h2 {
+    font-size: 45px;
+    font-weight: 800;
+}
+
+/* crousel */
+main#carousel {
+    grid-row: 1 / 2;
+    grid-column: 1 / 8;
+    width: 100vw;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    transform-style: preserve-3d;
+    perspective: 600px;
+    --items: 3;
+    --middle: 3;
+    --position: 1;
+    pointer-events: none;
+   
+  }
+  
+  div.item {
+    position: absolute;
+    width: 400px;
+    height: 450px;
+    background-color: rgb(252, 249, 248);
+    --r: calc(var(--position) - var(--offset));
+    --abs: max(calc(var(--r) * -1), var(--r));
+    transition: all 0.25s linear;
+    transform: rotateY(calc(-10deg * var(--r)))
+      translateX(calc(-300px * var(--r)));
+    z-index: calc((var(--position) - var(--abs)));
+    border-radius: 10px;
+    transition: all ease 1s;
+  }
+  
+  div.item:nth-of-type(1) {
+    --offset: 1;
+    background-color:white ;
+    border: 2px solid black;
+    box-shadow: 2px 2px 30px black;
+  }
+  div.item:nth-of-type(2) {
+    --offset: 2;
+    background-color: white;
+    border: 2px solid black;
+    box-shadow: 2px 2px 30px black;
+  }
+  div.item:nth-of-type(3) {
+    --offset: 3;
+    background-color: white;
+    border: 2px solid black;
+    box-shadow: 2px 2px 30px black;
+  }
+
+  input:nth-of-type(1) {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+  }
+  input:nth-of-type(1):checked ~ main#carousel {
+    --position: 1;
+  }
+  
+  input:nth-of-type(2) {
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+  }
+  input:nth-of-type(2):checked ~ main#carousel {
+    --position: 2;
+  }
+  
+  input:nth-of-type(3) {
+    grid-column: 4 /5;
+    grid-row: 2 / 3;
+  }
+  input:nth-of-type(3):checked ~ main#carousel {
+    --position: 3;
+  }
+  
+  #carousel .item p{
+        font-size: 18px;
+        padding: 30px;
+        line-height: 30px;
+        font-style: italic;
+  }
+
+  .fa-quote-left{
+    color: rgba(128, 128, 128, 0.427);
+    font-size: 40px;
+  }
+
+  #carousel .item h4{
+    font-size: 15px;
+    color: black;
+  }
+
+  #carousel .item img{
+    width: 20%;
+    height: 15%;
+    border-radius: 50%;
+  }
+  
+  input[type='radio']{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    transform: scale(1);
+    margin-bottom: 15px;   /* Apply some bottom margin */
+    margin-top: 10px;
+    cursor: pointer;
+   
+  }
