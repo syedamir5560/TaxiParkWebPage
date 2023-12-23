@@ -700,3 +700,107 @@ main#carousel {
  .partner-img{
     gap: 20px;
  }
+
+ /* footer */
+/* footer */
+#footer {
+    overflow: hidden;
+    width: 100%;
+    background: #161616;
+    /* background: #464646; */
+    padding-top: 25px;
+    height: 55vh;
+}
+
+.top-footer {
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-evenly;
+}
+#footer h3 {
+    font-size: 19px;
+    font-weight: 700;
+    color: #ffc107;
+}
+
+.about-us {
+    margin-left: 20px;
+    margin-top: 50px;
+    
+}
+
+
+
+
+.about-us p {
+    margin-top: 20px;
+    color: rgba(255, 255, 255, 0.763);
+    width: 300px;
+}
+
+.upcom-prod {
+    margin-left: 20px;
+    margin-top: 50px;
+
+}
+
+.upcom-prod h3 {
+    height: 40px;
+    color: #ffc107;
+}
+
+.upcom-prod marquee {
+    width: 20vw;
+    margin-left: 5px;
+    height: 150px;
+    font: 14px/20px Open Sans, Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.744);
+}
+
+.upcom-prod marquee ul li:hover{
+    color: #ffc107;
+    cursor: pointer;
+}
+
+.upcom-prod ul {
+    list-style: none;
+}
+
+.upcom-prod ul li {
+    border-bottom: 1px dotted #ece3e3;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    font-size: 12px;
+    position: relative;
+    overflow: hidden;
+}
+
+.contact-us{
+    margin-left: 20px;
+    margin-top: 50px;
+}
+
+.contact-us ul li{
+    color: rgba(255, 255, 255, 0.748);
+
+}
+
+ul#contact-item li {
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    padding-left: 5px;
+    margin-top: 10px;
+    /* height: 60px; */
+    width: 25vw;
+    line-height: 25px;
+
+}
+
+#footer a {
+    color: black;
+    list-style: none;
+    text-decoration: none;
+}
+
