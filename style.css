@@ -25,6 +25,7 @@ body::-webkit-scrollbar-thumb {
 
 .container {
     border-bottom: 5px solid orange;
+    width: 100%;
 }
 
 @media (max-width:1199px) {
@@ -732,6 +733,7 @@ input[type='radio']:hover {
     display: flex;
     /* align-items: center; */
     justify-content: space-evenly;
+    width: 100%;
 }
 
 #footer h3 {
