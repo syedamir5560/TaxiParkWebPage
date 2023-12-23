@@ -295,4 +295,11 @@
 
     }
 
+    .footer-bottom {
+        width: 100%;
+        background-color: black;
+        padding: 40px 50px;
+        height: auto;
+    }
+
 }
