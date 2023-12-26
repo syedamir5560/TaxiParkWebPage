@@ -161,6 +161,15 @@
         font-weight: 900;
     }
 
+
+    #vip-logo{
+         width: 16vw;
+
+    }
+
+  
+
+
     /* download section */
     @media screen and (max-width:550px) {
         .download-right-side>div {

@@ -136,6 +136,17 @@
 
     .terrifs-card {
         height: 30vh;
+    }
+
+    #vip-logo{
+        width: 4.6vw;
+        height: 5vh;
+    }
+
+    .fa-star{
+    font-size:12px;
+    margin-left: 15px;
+    margin-top: 12px;
 
     }
 
