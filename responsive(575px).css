@@ -166,7 +166,6 @@
          width: 16vw;
         height: 8svh;
     }
-
   
     /* download section */
     @media screen and (max-width:550px) {
@@ -174,7 +173,6 @@
             flex-direction: row;
         }
     }
-
 
     /* driver section */
 

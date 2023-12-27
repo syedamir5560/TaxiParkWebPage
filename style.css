@@ -138,6 +138,10 @@ body::-webkit-scrollbar-thumb {
 rotate: 90deg;
 }
 
+.dropdown-content a:hover i{
+    rotate: 90deg;
+}
+
 .nav-link:hover .fa-chevron-right,
 .fa-chevron-down {
     color: #ffc61a;
