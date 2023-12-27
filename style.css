@@ -134,8 +134,8 @@ body::-webkit-scrollbar-thumb {
     color: white;
 }
 
-.navbar-nav li a:hover i{
-rotate: 90deg   ;
+.navbar-nav li a:hover .fa-chevron-right{
+rotate: 90deg;
 }
 
 .nav-link:hover .fa-chevron-right,
