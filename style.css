@@ -135,7 +135,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .navbar-nav li a:hover i{
-rotate: 90deg;
+rotate: 90deg   ;
 }
 
 .nav-link:hover .fa-chevron-right,
@@ -434,7 +434,7 @@ rotate: 90deg;
 
 .terrifs-card:nth-child(3) {
     border: 3px solid #ffc61a;
-
+    box-shadow: 2px 2px 10px #ffc107;
 }
 
 #vip-logo {
