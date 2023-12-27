@@ -34,6 +34,7 @@ body::-webkit-scrollbar-thumb {
 
     }
 
+
     .navbar-nav {
         height: 400vh;
         margin-top: 1%;
@@ -133,6 +134,10 @@ body::-webkit-scrollbar-thumb {
     color: white;
 }
 
+.navbar-nav li a:hover i{
+rotate: 90deg;
+}
+
 .nav-link:hover .fa-chevron-right,
 .fa-chevron-down {
     color: #ffc61a;
@@ -147,6 +152,8 @@ body::-webkit-scrollbar-thumb {
 .fa-cart-shopping:hover {
     color: white
 }
+
+/* drop down */
 
 .dropdown-content {
     display: none;
@@ -180,26 +187,16 @@ body::-webkit-scrollbar-thumb {
 
 .dropdown:hover .dropdown-content {
     display: block;
-}
 
-.dropdown-content2 {
-    display: none;
-    position: absolute;
-    background-color: white;
-    width: 250px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    z-index: 1;
-    transform: translate(-35%, 1%);
-}
+} 
 
-.dropdown-content2 a:hover {
-    background-color: #ffc61a;
-}
+/* tepographi arrow */
 
-.dropdown2:hover .dropdown-content2 {
-    display: block;
-}
+.fa-caret-right{
+    font-size: 12px;
+    color: black;
 
+}
 
 .cont {
     position: relative;
@@ -437,25 +434,26 @@ body::-webkit-scrollbar-thumb {
 
 .terrifs-card:nth-child(3) {
     border: 3px solid #ffc61a;
-    
+
 }
 
-    #vip-logo{
-        position: absolute;
-        width: 4vw;
-        height: 10vh;
-        background-color: #ffc107;
-        left: 79%;
-        clip-path: polygon(100% 0, 0 0, 100% 100%);
+#vip-logo {
+    position: absolute;
+    width: 4vw;
+    height: 10vh;
+    background-color: #ffc107;
+    left: 79%;
+    clip-path: polygon(100% 0, 0 0, 100% 100%);
+    color: white;
 
-    }
+}
 
-    .fa-star{
-    font-size:15px;
+.fa-star {
+    font-size: 15px;
     margin-left: 15px;
     margin-top: 15px;
 
-    }
+}
 
 .terrifs-card:hover {
     box-shadow: 2px 2px 10px black;
